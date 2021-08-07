@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Opening an image.cpp">
+    <ClCompile Include="image warp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
