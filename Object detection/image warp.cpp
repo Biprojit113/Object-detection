@@ -31,7 +31,7 @@ float w = 250, h = 350;               // taking the width and height of a playin
 void main()
 {
 
-	string path = "pics for code/card.jpg";
+	string path = "pics for code/cards.jpg";
 	Mat image = imread(path);
 
 
