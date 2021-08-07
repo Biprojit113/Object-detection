@@ -1,4 +1,4 @@
-////     ||| Open Source Computer Vision Library |||     \\\\  
+               ////     ||| Open Source Computer Vision Library |||     \\\\  
 
 
 
@@ -20,8 +20,8 @@ using namespace std;              //  ..  ..    c++ standard    ..        ..    
 
 
 Mat imgHSV, lower, upper, mask;       
-int huemin = 0; int satmin = 82; int valmin = 49;                   // here lower limit for hue,saturation and value is 0
-int huemax = 179; int satmax = 222; int valmax = 255;        // for hue max value is 180, and others like saturation value is 256
+int huemin = 101; int satmin = 31; int valmin = 248;                   // here lower limit for hue,saturation and value is 0
+int huemax = 146; int satmax = 191; int valmax = 255;        // for hue max value is 180, and others like saturation value is 256
 
 
 
@@ -29,7 +29,7 @@ int huemax = 179; int satmax = 222; int valmax = 255;        // for hue max valu
 void main()
 {
 
-	string path = "pics for code/Shape.jpg";
+	string path = "pics for code/Feather.jpg";
 	Mat image = imread(path);
 
 	cvtColor(image, imgHSV, COLOR_BGR2HSV);                 //Changing the color into HSV why is that? because in HSV it is easier to find the desired color
